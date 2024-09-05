@@ -1,0 +1,23 @@
+body {
+    text-align:"center";
+
+    background-image: url("j.png");
+    background-repeat: no-repeat;
+    background-position:top right;
+ background-size:10% ;  
+}
+#j {
+   background-image: linear-gradient(to top right,blue, orange, red, yellow); 
+   height: 400px;
+}
+#c {
+    background-color: red;
+    animation-name: x;
+    animation-iteration-count: infinite;
+   animation-duration: 4s; 
+height: 100px;
+}
+@keyframes x {
+    25% {background-color: red;}
+    50% {background-color: yellow;}
+}
